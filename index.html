@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>webkitAudio test</title>
+    <style>
+      div.knobcontainer {
+        width:32px;
+        display:inline-block;
+        background:#abc;
+      }
+
+      div.knob {
+        background-image:url('knob.png');
+        width:32px;
+        height:32px;
+      }
+    </style>
+    <script src="303.js"></script>
+  </head>
+  <body id='body'>
+    <div id="status">Starting up...</div>
+    <button onclick="playpause()" id="playbutton">&gt;</button>
+    <div id="controls">Drag knobs left and right:</div>
+    <canvas id='c' width=300 height=128></canvas>
+  </body>
+</html>
