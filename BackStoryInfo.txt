@@ -1,11 +1,6 @@
 This is a collection of hacks, experiments, and various detritus from my quest
 to accurately emulate the TB-303 synthesizer.
 
-A demo of what this code does is available here:
-https://www.a1k0n.net/code/x0x/
-
-(the source code for the above is also in this repo, currently index.html and
-303.js)
 
 I started with a few samples of 303 basslines found randomly on the Internet
 and began trying to fit filter responses to them, by numerical analysis, by
